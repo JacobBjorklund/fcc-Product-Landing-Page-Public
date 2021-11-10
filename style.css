@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    font-family: 'Righteous';
+}
+
+#header {
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.685);
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+
+#header-img {
+    width: 80px ;
+    height: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+#nav-bar {
+    display: flex;
+    gap: 70px;
+}
+
+main {
+    padding: 2rem;
+}
+
+#video-div {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+#video {
+    height: 75vh;
+    width: 100%;
+}
+
+section {
+    min-height: 50vh;
+    margin-top: 50px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 100px;
+}
+
+.headline {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom:  90px;
+}
+
+.img-products {
+    height: 300px;
+    max-width: 300px;
+    margin-bottom: 40px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#product {
+    font-size: 2rem;
+}
+
+.subtitles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 400px;
+} 
+
+.pants {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jackets {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.women {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.men {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form {
+    width: 100%;
+    min-height:30vh;
+    background-color: rgba(0, 0, 0, 0.685);
+    padding: 2rem;
+    display: flex;
+}
+.subscribe {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.feedback {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+#subscribe-headline {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.4rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#email {
+    width: 80%;
+    height: 4vh;
+    border-radius: 10px;
+    padding: 1rem;
+    border: 1px solid white;
+}
+
+.input {
+    width: 100%;
+}
+
+#submit {
+    width: 12%;
+    height: 4vh;
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color: lime;
+    font-size: 1.1rem;
+    font-family: inherit;
+    border: 1px solid lime;
+}
+
+textarea {
+    width: 70%;
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+#submit2 {
+    width: 70%;
+    height: 5vh;
+    background-color: lime;
+    font-family: inherit;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    border: 2px solid lime;
+}
+
+@media only screen and (max-width: 600px) {
+    .images {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #video {
+        height: 72vh;
+        width: 100%;
+    }
+    #subscribe-headline {
+        font-size: 1.4rem;
+    }
+    p {
+        font-size: 0.9rem;
+    }
+    #submit {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0;
+
+    }
+    #email{
+       width: 100%;
+    }
+    textarea {
+        width: 100%;
+    }
+    .feedback {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .img-products {
+        width: 290px;
+        margin-bottom: 20px;
+    }
+    #form {
+        flex-direction: column;
+        gap: 70px;
+        justify-content: center;
+        align-items: center;
+    }
+    .subscribe {
+        width: 100%;
+    }
+    #submit2 {
+        width: 100%;
+        height: 5vh;
+    }
+    .input {
+        justify-content: center;
+        align-items: center;
+    }
+    a {
+        font-size: 1rem;
+    }
+    #header-img {
+        height: 30px;
+        width: 50px;
+    }
+    #header {
+        align-items: center;
+        justify-content: center;
+    }
+    h2 {
+        margin-bottom: 40px;
+    }
+    #nav-bar {
+        gap: 20px;
+    }
+    .subscribe > h2 {
+        margin-bottom: 0;
+    }
+    #move {
+        margin-left: 23px;
+    }
+}
